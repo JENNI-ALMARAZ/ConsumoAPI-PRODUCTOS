@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
-import {ChartBarIcon, TableCellsIcon } from '@heroicons/react/24/outline';
 
 
 function App() {
@@ -46,12 +45,10 @@ function App() {
           >
             {viewGraph ? (
               <>
-                <TableCellsIcon className="h-5 w-5" />
                 <span>Ver Tabla</span>
               </>
             ) : (
               <>
-                <ChartBarIcon className="h-5 w-5" />
                 <span>Ver Gráfico</span>
               </>
             )}
