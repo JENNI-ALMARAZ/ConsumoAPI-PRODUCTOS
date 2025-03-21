@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import React from 'react';
 
 
 function App() {
